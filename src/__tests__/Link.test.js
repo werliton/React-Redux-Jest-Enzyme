@@ -1,7 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Link from '../components/Link';
-import App from '../App'
 
 it('Title of the p change after click', ()=>{
 

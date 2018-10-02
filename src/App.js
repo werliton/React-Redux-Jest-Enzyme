@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Link from './components/Link'
-import { configure } from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
-
-configure({adapter: new Adapter()});
 
 class App extends Component {
 
